@@ -1,0 +1,34 @@
+{
+  "itemList": [
+    {
+      "itemId": "1",
+      "itemName": "Apple",
+      "itemPrice": 150,
+      "itemColor": "red"
+    },
+    {
+      "id": "0a0d",
+      "itemName": "Kiwi",
+      "itemPrice": "300",
+      "itemColor": "Green"
+    },
+    {
+      "id": "ec70",
+      "itemName": "Banana",
+      "itemPrice": "60",
+      "itemColor": "Yellow"
+    },
+    {
+      "id": "1cff",
+      "itemName": "Chickoo",
+      "itemPrice": "80",
+      "itemColor": "Brown"
+    },
+    {
+      "id": "86bb",
+      "itemName": "Pomegranate",
+      "itemPrice": "300",
+      "itemColor": "red"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+.sidebar{
+<<<<<<< HEAD:angular/2.components/workshops/workshop1/platformadmin-jobProvider/src/app/sidebar/sidebar.component.css
+    background-color: blueviolet;
+    width:250px;
+    height:600px;
+=======
+     height: 100%;
+    
+    background-color: #40189D;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    line-height: 3em;
+    list-style: none;
+}
+li:hover{
+    background-color: #F2F2F2;
+    color: black;
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px;             
+} 
+a:hover{
+    color: black;
+>>>>>>> 5beb049d6f4a105d3a95645665094545cbae5203:12.angular/2.components/afra/workshop1/platformadmin-jobProvider/src/app/sidebar/sidebar.component.css
+}
