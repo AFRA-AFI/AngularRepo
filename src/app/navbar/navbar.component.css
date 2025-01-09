@@ -1,0 +1,15 @@
+.navbar{
+    height:5%;
+    width:80%;
+    text-align: right;
+    float:left
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: 2em;
+}
+img{
+    width:5%;
+}

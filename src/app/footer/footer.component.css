@@ -1,0 +1,18 @@
+.footer{
+    background-color: #47a1b6;
+    width:100%;
+    height:30%;
+    float:inline-end;
+    color: #fff;
+    font-size: large;
+}
+.footer1{
+    text-align: left;
+    float: left;
+    margin-left: 5cqi;
+}
+.footer2{
+    text-align: right;
+    float:right;
+    margin-right: 5em;
+}

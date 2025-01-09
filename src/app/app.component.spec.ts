@@ -1,11 +1,22 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HeaderComponent } from './header/header.component';
+import { SearchbarComponent } from './searchbar/searchbar.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { FooterComponent } from './footer/footer.component';
 
 describe('AppComponent', () => {
   beforeEach(() => TestBed.configureTestingModule({
     imports: [RouterTestingModule],
-    declarations: [AppComponent]
+    declarations: [AppComponent,
+      NavbarComponent,
+      SearchbarComponent,
+      HeaderComponent,
+      SidebarComponent,
+      FooterComponent
+    ]
   }));
 
   it('should create the app', () => {
@@ -26,4 +37,7 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('sample app is running!');
   });
+  
+
+ 
 });
